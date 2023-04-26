@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class UniversalTrigger1 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private GameObject activateThis;
+    private void OnTriggerEnter(Collider other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        activateThis.SetActive(true);
     }
 }
