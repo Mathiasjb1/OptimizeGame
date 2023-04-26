@@ -26,12 +26,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/BNG Framework/Scenes/testingscenes/XR Demo 1.unity
     guid: f79c60acd535d264ca04f122f17b6dba
-  - enabled: 1
+  - enabled: 0
     path: Assets/GameScripts/Day1.unity
     guid: 5e64a238950d1844a92bce63c92e3f47
-  - enabled: 1
+  - enabled: 0
     path: Assets/GameScripts/Night 1.unity
     guid: 24ee994c0c1b67b40888b94ee476c7de
+  - enabled: 1
+    path: Assets/Mine/Example/Optimize1.unity
+    guid: f71ed489b58d10143b396326163978e7
+  - enabled: 0
+    path: Assets/Mine/Example/Notoptimized.unity
+    guid: 08df6972b2bed6d4a8c1bd153bd30493
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 553dde8f9e9b1c448affad55389778ab,
       type: 2}
